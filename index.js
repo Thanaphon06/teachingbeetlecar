@@ -36,7 +36,7 @@ addBoard({
         }
     ],
     examples: [
-        /*"Switch",
+        "Switch",
         {
             name: "ON OFF Switch",
             files: "examples/button_on",
@@ -50,7 +50,7 @@ addBoard({
             name: "Ultrasonic",
             files: "examples/ultrasonic_neo",
         },
-        "BlueTooth",
+        /*"BlueTooth",
         {
             name: "Bluetooth Command",
             files: "examples/bluetooth_ex",
@@ -63,7 +63,7 @@ addBoard({
         {
             name: "IR Command",
             files: "examples/ir_remote",
-        },
+        },*/
         "Line Tracking",
         {
             name: "Line Tracking",
@@ -98,10 +98,7 @@ addBoard({
         ///    name: "Servo Hold Object",
         ///    files: "examples/HBD_car",
        /// },
-        {
-            name: "Servo Clamp Object 2",
-            files: "examples/servo_car",
-        },*/
+       
 
 
     ],
@@ -148,6 +145,15 @@ addBoard({
                                                         <field name="move">0</field>
                                                         <field name="speed">180</field>
                                                         <field name="time">0</field>
+                                                    </block>
+                                                `
+                                                },
+                                                {
+                                                    xml: `
+                                                    <block type="new_motor3">
+                                                        <field name="motor">0</field>
+                                                        <field name="move">0</field>
+                                                        <field name="speed">200</field>
                                                     </block>
                                                 `
                                                 },
@@ -321,7 +327,7 @@ addBoard({
                         },
 
                          //LED Start //////////////////////////////////
-                        {
+                       /* {
                             xml: `
                             <block type="led_onoff">
                                 <value name="pin_trig">
@@ -331,8 +337,8 @@ addBoard({
                                 </value>
                             </block>
                         `
-                        },
-                        /*{
+                        },*/
+                        {
                             xml: `
                             <block type="led_left">
                                 <value name="pin_trig">
@@ -353,7 +359,7 @@ addBoard({
                                 </value>
                             </block>
                         `
-                        },*/
+                        },
                         
                        
                         
