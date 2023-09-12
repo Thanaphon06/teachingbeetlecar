@@ -36,71 +36,7 @@ addBoard({
         }
     ],
     examples: [
-        "Switch",
-        {
-            name: "ON OFF Switch",
-            files: "examples/button_on",
-        },
-        {
-            name: "Toggle Switch",
-            files: "examples/toggle_sw",
-        },
-        "Ultrasonic",
-        {
-            name: "Ultrasonic",
-            files: "examples/ultrasonic_neo",
-        },
-        /*"BlueTooth",
-        {
-            name: "Bluetooth Command",
-            files: "examples/bluetooth_ex",
-        },
-        "IR_Signal",
-        {
-            name: "Read IR Signal",
-            files: "examples/read_ir",
-        },
-        {
-            name: "IR Command",
-            files: "examples/ir_remote",
-        },*/
-        "Line Tracking",
-        {
-            name: "Line Tracking",
-            files: "examples/linetracking2.0",
-        },
-        "Line Tracking",
-        {
-            name: "Buzzer Beep",
-            files: "examples/buzzer_beep",
-        },
-        {
-            name: "Buzzer Play Song",
-            files: "examples/buzzer_song",
-        },
-        
-        "Neopixel",
-        {
-            name: "Rainbow Neopixel",
-            files: "examples/neo_rainbow",
-        },
-        "Motor",
-       {
-            name: "Motor",
-            files: "examples/motor_ex",
-        },
-        "Servo",
-        {
-            name: "Servo Clamp Object 1",
-            files: "examples/servo_ex",
-        },
-        ///{
-        ///    name: "Servo Hold Object",
-        ///    files: "examples/HBD_car",
-       /// },
        
-
-
     ],
     usb: [
         { // CP2104
